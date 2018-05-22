@@ -1,0 +1,44 @@
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `nom` varchar(128) NOT NULL,
+  `prenom` varchar(128) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `users`
+--
+
+INSERT INTO `users` (`id`, `nom`, `prenom`) VALUES
+(1, 'Bertin', 'Pierre'),
+(2, 'Laffont', 'Matthis'),
+(3, 'Petit', 'Loic'),
+(4, 'Rayapoulle', 'Scott'),
+(5, 'West anny', 'Samie'),
+(6, 'Sereni', 'Hugo'),
+(7, 'Journet', 'Quentin'),
+(8, 'Toto', 'Laurent');
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT pour les tables déchargées
+--
+
+--
+-- AUTO_INCREMENT pour la table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
