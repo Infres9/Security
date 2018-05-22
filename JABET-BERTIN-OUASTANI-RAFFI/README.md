@@ -7,6 +7,5 @@ You have a limited number of money and everytime you make a buy you specify the 
 - Have gcc
 run
  `
-gcc main.c -o m -lm
-./m
+gcc main.c -o m -lm && ./m
 `
