@@ -1,0 +1,7 @@
+*.cscope.out
+*.cctree.out
+*.tags
+.*.swp
+.session.vim
+.undodir/*
+.*.un~
